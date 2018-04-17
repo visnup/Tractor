@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		853A91152085CE8E00384869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A91142085CE8E00384869 /* AppDelegate.swift */; };
+		853A91172085CE8E00384869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A91162085CE8E00384869 /* ViewController.swift */; };
+		853A91192085CE8F00384869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853A91182085CE8F00384869 /* Assets.xcassets */; };
+		853A911C2085CE8F00384869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853A911A2085CE8F00384869 /* Main.storyboard */; };
+		853A91282085CE8F00384869 /* TractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A91272085CE8F00384869 /* TractorTests.swift */; };
+		853A91332085CE8F00384869 /* TractorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853A91322085CE8F00384869 /* TractorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		853A91242085CE8F00384869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853A91092085CE8E00384869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853A91102085CE8E00384869;
+			remoteInfo = Tractor;
+		};
+		853A912F2085CE8F00384869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853A91092085CE8E00384869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853A91102085CE8E00384869;
+			remoteInfo = Tractor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		853A91112085CE8E00384869 /* Tractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853A91142085CE8E00384869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		853A91162085CE8E00384869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		853A91182085CE8F00384869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853A911B2085CE8F00384869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		853A911D2085CE8F00384869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853A911E2085CE8F00384869 /* Tractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tractor.entitlements; sourceTree = "<group>"; };
+		853A91232085CE8F00384869 /* TractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853A91272085CE8F00384869 /* TractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TractorTests.swift; sourceTree = "<group>"; };
+		853A91292085CE8F00384869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853A912E2085CE8F00384869 /* TractorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TractorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853A91322085CE8F00384869 /* TractorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TractorUITests.swift; sourceTree = "<group>"; };
+		853A91342085CE8F00384869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853A910E2085CE8E00384869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A91202085CE8F00384869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A912B2085CE8F00384869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853A91082085CE8E00384869 = {
+			isa = PBXGroup;
+			children = (
+				853A91132085CE8E00384869 /* Tractor */,
+				853A91262085CE8F00384869 /* TractorTests */,
+				853A91312085CE8F00384869 /* TractorUITests */,
+				853A91122085CE8E00384869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853A91122085CE8E00384869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853A91112085CE8E00384869 /* Tractor.app */,
+				853A91232085CE8F00384869 /* TractorTests.xctest */,
+				853A912E2085CE8F00384869 /* TractorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853A91132085CE8E00384869 /* Tractor */ = {
+			isa = PBXGroup;
+			children = (
+				853A91142085CE8E00384869 /* AppDelegate.swift */,
+				853A91162085CE8E00384869 /* ViewController.swift */,
+				853A91182085CE8F00384869 /* Assets.xcassets */,
+				853A911A2085CE8F00384869 /* Main.storyboard */,
+				853A911D2085CE8F00384869 /* Info.plist */,
+				853A911E2085CE8F00384869 /* Tractor.entitlements */,
+			);
+			path = Tractor;
+			sourceTree = "<group>";
+		};
+		853A91262085CE8F00384869 /* TractorTests */ = {
+			isa = PBXGroup;
+			children = (
+				853A91272085CE8F00384869 /* TractorTests.swift */,
+				853A91292085CE8F00384869 /* Info.plist */,
+			);
+			path = TractorTests;
+			sourceTree = "<group>";
+		};
+		853A91312085CE8F00384869 /* TractorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				853A91322085CE8F00384869 /* TractorUITests.swift */,
+				853A91342085CE8F00384869 /* Info.plist */,
+			);
+			path = TractorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853A91102085CE8E00384869 /* Tractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853A91372085CE8F00384869 /* Build configuration list for PBXNativeTarget "Tractor" */;
+			buildPhases = (
+				853A910D2085CE8E00384869 /* Sources */,
+				853A910E2085CE8E00384869 /* Frameworks */,
+				853A910F2085CE8E00384869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tractor;
+			productName = Tractor;
+			productReference = 853A91112085CE8E00384869 /* Tractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853A91222085CE8F00384869 /* TractorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853A913A2085CE8F00384869 /* Build configuration list for PBXNativeTarget "TractorTests" */;
+			buildPhases = (
+				853A911F2085CE8F00384869 /* Sources */,
+				853A91202085CE8F00384869 /* Frameworks */,
+				853A91212085CE8F00384869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853A91252085CE8F00384869 /* PBXTargetDependency */,
+			);
+			name = TractorTests;
+			productName = TractorTests;
+			productReference = 853A91232085CE8F00384869 /* TractorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		853A912D2085CE8F00384869 /* TractorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853A913D2085CE8F00384869 /* Build configuration list for PBXNativeTarget "TractorUITests" */;
+			buildPhases = (
+				853A912A2085CE8F00384869 /* Sources */,
+				853A912B2085CE8F00384869 /* Frameworks */,
+				853A912C2085CE8F00384869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				853A91302085CE8F00384869 /* PBXTargetDependency */,
+			);
+			name = TractorUITests;
+			productName = TractorUITests;
+			productReference = 853A912E2085CE8F00384869 /* TractorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853A91092085CE8E00384869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Visnu Pitiyanuvath";
+				TargetAttributes = {
+					853A91102085CE8E00384869 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					853A91222085CE8F00384869 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 853A91102085CE8E00384869;
+					};
+					853A912D2085CE8F00384869 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 853A91102085CE8E00384869;
+					};
+				};
+			};
+			buildConfigurationList = 853A910C2085CE8E00384869 /* Build configuration list for PBXProject "Tractor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853A91082085CE8E00384869;
+			productRefGroup = 853A91122085CE8E00384869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853A91102085CE8E00384869 /* Tractor */,
+				853A91222085CE8F00384869 /* TractorTests */,
+				853A912D2085CE8F00384869 /* TractorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853A910F2085CE8E00384869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A91192085CE8F00384869 /* Assets.xcassets in Resources */,
+				853A911C2085CE8F00384869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A91212085CE8F00384869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A912C2085CE8F00384869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853A910D2085CE8E00384869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A91172085CE8E00384869 /* ViewController.swift in Sources */,
+				853A91152085CE8E00384869 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A911F2085CE8F00384869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A91282085CE8F00384869 /* TractorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853A912A2085CE8F00384869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A91332085CE8F00384869 /* TractorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		853A91252085CE8F00384869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853A91102085CE8E00384869 /* Tractor */;
+			targetProxy = 853A91242085CE8F00384869 /* PBXContainerItemProxy */;
+		};
+		853A91302085CE8F00384869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 853A91102085CE8E00384869 /* Tractor */;
+			targetProxy = 853A912F2085CE8F00384869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		853A911A2085CE8F00384869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				853A911B2085CE8F00384869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		853A91352085CE8F00384869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		853A91362085CE8F00384869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		853A91382085CE8F00384869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tractor/Tractor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = Tractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.Tractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		853A91392085CE8F00384869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tractor/Tractor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = Tractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.Tractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		853A913B2085CE8F00384869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = TractorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.TractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tractor.app/Contents/MacOS/Tractor";
+			};
+			name = Debug;
+		};
+		853A913C2085CE8F00384869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = TractorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.TractorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tractor.app/Contents/MacOS/Tractor";
+			};
+			name = Release;
+		};
+		853A913E2085CE8F00384869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = TractorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.TractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Tractor;
+			};
+			name = Debug;
+		};
+		853A913F2085CE8F00384869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2GR4447TCG;
+				INFOPLIST_FILE = TractorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.visnup.TractorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Tractor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853A910C2085CE8E00384869 /* Build configuration list for PBXProject "Tractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A91352085CE8F00384869 /* Debug */,
+				853A91362085CE8F00384869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853A91372085CE8F00384869 /* Build configuration list for PBXNativeTarget "Tractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A91382085CE8F00384869 /* Debug */,
+				853A91392085CE8F00384869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853A913A2085CE8F00384869 /* Build configuration list for PBXNativeTarget "TractorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A913B2085CE8F00384869 /* Debug */,
+				853A913C2085CE8F00384869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853A913D2085CE8F00384869 /* Build configuration list for PBXNativeTarget "TractorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A913E2085CE8F00384869 /* Debug */,
+				853A913F2085CE8F00384869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853A91092085CE8E00384869 /* Project object */;
+}
